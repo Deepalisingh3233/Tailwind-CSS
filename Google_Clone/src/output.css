@@ -217,6 +217,9 @@
   .m-3 {
     margin: calc(var(--spacing) * 3);
   }
+  .m-auto {
+    margin: auto;
+  }
   .mx-8 {
     margin-inline: calc(var(--spacing) * 8);
   }
@@ -241,6 +244,9 @@
   .mt-9 {
     margin-top: calc(var(--spacing) * 9);
   }
+  .mt-10 {
+    margin-top: calc(var(--spacing) * 10);
+  }
   .mb-8 {
     margin-bottom: calc(var(--spacing) * 8);
   }
@@ -250,6 +256,9 @@
   .table {
     display: table;
   }
+  .h-10 {
+    height: calc(var(--spacing) * 10);
+  }
   .h-22 {
     height: calc(var(--spacing) * 22);
   }
@@ -258,6 +267,12 @@
   }
   .h-28 {
     height: calc(var(--spacing) * 28);
+  }
+  .h-\[70vh\] {
+    height: 70vh;
+  }
+  .h-\[80vh\] {
+    height: 80vh;
   }
   .w-full {
     width: 100%;
@@ -590,6 +605,11 @@
       }
     }
   }
+  .min-\[1880\]\:mt-12 {
+    @media (width >= 1880) {
+      margin-top: calc(var(--spacing) * 12);
+    }
+  }
   .sm\:inline-block {
     @media (width >= 40rem) {
       display: inline-block;
@@ -650,6 +670,26 @@
   .lg\:justify-between {
     @media (width >= 64rem) {
       justify-content: space-between;
+    }
+  }
+  .\32 xl\:m-auto {
+    @media (width >= 96rem) {
+      margin: auto;
+    }
+  }
+  .\32 xl\:mt-5 {
+    @media (width >= 96rem) {
+      margin-top: calc(var(--spacing) * 5);
+    }
+  }
+  .\32 xl\:mt-10 {
+    @media (width >= 96rem) {
+      margin-top: calc(var(--spacing) * 10);
+    }
+  }
+  .\32 xl\:mt-12 {
+    @media (width >= 96rem) {
+      margin-top: calc(var(--spacing) * 12);
     }
   }
 }

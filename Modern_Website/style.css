@@ -4,3 +4,36 @@
 
 @import "tailwindcss";
 
+@layer base {
+    html, 
+    body {
+        overflow-x: hidden
+    }
+    body {
+        @apply font-body;
+    }
+    h1, h2, h3 {
+        @apply font-display text-gray-800 font-medium;
+    }
+    p {
+        @apply font-display;
+    }
+    .container {
+        @apply px-6 py-12 max-w-7xl mt-12 mx-auto lg:px-8 lg:mt-12;
+    }
+    .anchor-hover{
+        @apply border-b border-dotted border-gray-300 hover:border-solid hover:border-gray-500;
+    }
+    .gradient-hover-outer {
+        @apply bg-slate-200 hover:bg-gradient-to-br hover:from-red-200 hover:via-purple-200 hover:to-yellow-200 p-[1px];
+    }
+    .gradient-hover-inner {
+        @apply bg-slate-50 group-hover:bg-gradient-to-br group-hover:from-red-50 group-hover:via-purple-50 group-hover:to-yellow-50;
+    }
+}
+
+@theme {
+  --color-primary: #3238F2;
+  --font-display: 'inter', 'sans-serif';
+  --font-body: 'poppins', 'sans-serif';
+}

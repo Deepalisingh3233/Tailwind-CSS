@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+@import "tailwindcss";
+
+@layer base {
+    body {
+        @apply font-display;
+    }
+    #slider {
+        background-image: url("https://cf-assets-clover-app.thredup.com/uploads/2025-05-30/creator-f2a8a9c7.gif");
+        background-size: cover;
+        background-position: 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+@theme {
+  --color-primary: #7BFFC3;
+  --font-display: 'inter', 'sans-serif';
+  --font-oswald: "Oswald", sans-serif;
+}

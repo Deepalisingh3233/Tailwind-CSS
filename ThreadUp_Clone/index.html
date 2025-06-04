@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThreadUp Clone</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <!-- Offer -->
+        <div class="flex flex-row bg-black text-white text-xs py-2 px-4 items-center justify-between">
+            <div>
+                <span class="">Your first order: Take 50% off! Plus, free shipping. Code</span>
+                <button class="bg-gray-100 text-gray-900 py-0.5 px-1 rounded-sm uppercase font-medium">first50</button>
+                <a class="underline" href="#">see Terms</a>
+            </div>
+            <div class="text-xs md:text-sm flex md:gap-4">
+                <a class="hidden md:flex" href="#">About</a>
+                <a href="#">Gift Cards</a>
+            </div>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="flex relative justify-center gap-4 items-center mt-4 lg:mt-0 px-6">
+            <div class="hidden lg:flex justify-center items-center gap-6 text-xs font-semibold">
+                <div class="border-r border-gray-200 p-4">
+                    <img class="w-20" src="./images/logo.svg" alt="">
+                </div>
+                <div>
+                    <span class="uppercas">Shop</span>
+                </div>
+                <div class="bg-gray-100 border border-gray-200 p-6">
+                    <span class="uppercase">Sell</span>
+                </div>
+            </div>
+            <div class="relative">
+                <input class="border border-gray-300 lg:min-w-3xl sm:min-w-xl w-sm rounded-sm py-2 px-2 text-sm font-light" type="text"
+                    placeholder="Search for floral maxi dress">
+                <svg class="absolute right-2 top-1.5" xmlns="http://www.w3.org/2000/svg" height="24px"
+                    viewBox="0 -960 960 960" width="24px" fill="#666666">
+                    <path
+                        d="M480-260q75 0 127.5-52.5T660-440q0-75-52.5-127.5T480-620q-75 0-127.5 52.5T300-440q0 75 52.5 127.5T480-260Zm0-80q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29ZM160-120q-33 0-56.5-23.5T80-200v-480q0-33 23.5-56.5T160-760h126l74-80h240l74 80h126q33 0 56.5 23.5T880-680v480q0 33-23.5 56.5T800-120H160Zm0-80h640v-480H638l-73-80H395l-73 80H160v480Zm320-240Z" />
+                </svg>
+
+            </div>
+            <div class="flex gap-1">
+                <svg xmlns="http://www.w3.org/2000/svg" height="22px" viewBox="0 -960 960 960" width="22px"
+                    fill="#666666">
+                    <path
+                        d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" height="22px" viewBox="0 -960 960 960" width="22px"
+                    fill="#666666">
+                    <path
+                        d="M480-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM160-160v-112q0-34 17.5-62.5T224-378q62-31 126-46.5T480-440q66 0 130 15.5T736-378q29 15 46.5 43.5T800-272v112H160Zm80-80h480v-32q0-11-5.5-20T700-306q-54-27-109-40.5T480-360q-56 0-111 13.5T260-306q-9 5-14.5 14t-5.5 20v32Zm240-320q33 0 56.5-23.5T560-640q0-33-23.5-56.5T480-720q-33 0-56.5 23.5T400-640q0 33 23.5 56.5T480-560Zm0-80Zm0 400Z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" height="22px" viewBox="0 -960 960 960" width="22px"
+                    fill="#666666">
+                    <path
+                        d="M280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z" />
+                </svg>
+            </div>
+        </div>
+
+        <!-- Mobile View Menu -->
+        <div class="sm:flex md:hidden py-2">
+            <div class="flex w-full justify-between items-center bg-gray-100">
+                <a class="bg-black p-2"><img src="./images/mb_logo.svg" alt=""></a>
+                <button class="text-xs uppercase font-semibold text-center flex-1 border-r border-gray-500">Shop</button>
+                <button class="text-xs uppercase font-semibold flex-1 border-r border-gray-500">Sell</button>
+                <button class="text-xs uppercase font-semibold flex-1">About</button>
+            </div>
+        </div>
+
+        <!-- Nav Bar -->
+        <div class="hidden lg:flex justify-center border border-gray-100 px-6">
+            <nav class="flex gap-8 text-sm items-center px-12 py-4">
+                <div>
+                    <a href="#">New Arrivals</a>
+                </div>
+                <div>
+                    <a href="#">Vintage Pop-up</a>
+                    <span class="bg-primary p-1 px-2 rounded-sm font-medium">New</span>
+                </div>
+                <div>
+                    <a href="#">Women</a>
+                </div>
+                <div>
+                    <a href="#">Premium</a>
+                </div>
+                <div>
+                    <a href="#">Designer</a>
+                </div>
+                <div>
+                    <a href="#">Shoes</a>
+                </div>
+                <div>
+                    <a href="#">Handbags</a>
+                </div>
+                <div>
+                    <a href="#">Accessories</a>
+                </div>
+                <div>
+                    <a href="#">kids</a>
+                </div>
+                <div>
+                    <a href="#">Sale</a>
+                </div>
+                <div>
+                    <a href="#">Brands</a>
+                </div>
+                <div>
+                    <a href="#">Style Chat</a>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+        <!-- Offers -->
+        <div class="lg:px-6 px-2 md:py-4 mt-4 bg-primary flex flex-col md:flex-row md:justify-center md:items-center">
+            <div class="py-4 flex flex-col md:flex-row gap-2 md:gap-4">
+                <h1 class="uppercase text-2xl lg:text-4xl font-oswald leading-tight tracking-tighter">Get 50% off your first order</h1>
+                <div class="hidden sm:block bg-black w-[2px]"></div>
+                <div class="flex md:flex-col gap-1 tracking-tight text-gray-800 text-sm">
+                    <p>Plus, enjoy free shipping.&nbsp;</p>
+                    <p>Code: <span class="uppercase bg-black text-gray-200 text-xs p-0.5 rounded-sm">first50</span></p>
+                </div>
+                <div class="flex justify-between gap-4">
+                    <button class="border-b uppercase md:border-none md:bg-black md:text-gray-100 md:px-8 rounded-lg hover:-translate-y-0.5 transition-transform md:text-xl md:py-1 border-gray-400 text-xs font-medium">
+                        Shop Now
+                    </button>
+                    <a class="underline text-xs flex md:items-end" href="#">Exclusion apply. See terms</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Text -->
+        <div class="flex justify-center items-center px-6 py-2">
+            <p class="text-center tracking-widest font-medium leading-normal text-sm">Buy and sell secondhand styles with ThredUp. Thrift top brands up to 90% off est. retail.</p>
+        </div>
+
+        <!-- Slider -->
+        <div class="px-6 py-4 relative">
+        
+            <div id="slider" class="h-52 rounded-sm md:h-80">
+                <div
+                    class="bg-white p-4 flex justify-center items-center h-8 w-8 rounded-full absolute md:top-[50%] left-8 top-[40%]">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </div>
+                <div class="text-center">
+                    <h2>Meet your summer style</h2>
+                    <p>Kick your feet up. We take care of photography, listing, shipping and everything in between.</p>
+                    <button class="uppercase bg-gray-50 text-black font-medium text-sm">Shop New Arrivals</button>
+                </div>
+                <div
+                    class="bg-white p-4 flex justify-center items-center h-8 w-8 rounded-full absolute md:top-[50%] right-8 top-[40%]">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+        
+        
+        </div>
+
+    </main>
+</body>
+
+</html>

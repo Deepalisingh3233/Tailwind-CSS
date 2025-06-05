@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ThreadUp Clone</title>
+    <title>ThredUp Clone</title>
     <link rel="stylesheet" href="output.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
@@ -40,7 +40,7 @@
                 </div>
             </div>
             <div class="relative">
-                <input class="border border-gray-300 lg:min-w-3xl sm:min-w-xl w-sm rounded-sm py-2 px-2 text-sm font-light" type="text"
+                <input class="border border-gray-300 lg:min-w-3xl sm:min-w-xl rounded-sm py-2 px-2 text-sm font-light" type="text"
                     placeholder="Search for floral maxi dress">
                 <svg class="absolute right-2 top-1.5" xmlns="http://www.w3.org/2000/svg" height="24px"
                     viewBox="0 -960 960 960" width="24px" fill="#666666">
@@ -125,7 +125,7 @@
 
     <main>
         <!-- Offers -->
-        <div class="lg:px-6 px-2 md:py-4 mt-4 bg-primary flex flex-col md:flex-row md:justify-center md:items-center">
+        <div class="lg:px-6 px-2 md:py-2 mt-4 bg-primary flex flex-col md:flex-row md:justify-center md:items-center">
             <div class="py-4 flex flex-col md:flex-row gap-2 md:gap-4">
                 <h1 class="uppercase text-2xl lg:text-4xl font-oswald leading-tight tracking-tighter">Get 50% off your first order</h1>
                 <div class="hidden sm:block bg-black w-[2px]"></div>
@@ -143,7 +143,7 @@
         </div>
 
         <!-- Text -->
-        <div class="flex justify-center items-center px-6 py-2">
+        <div class="flex justify-center items-center px-6 py-4">
             <p class="text-center tracking-widest font-medium leading-normal text-sm">Buy and sell secondhand styles with ThredUp. Thrift top brands up to 90% off est. retail.</p>
         </div>
 
@@ -155,10 +155,10 @@
                     class="bg-white p-4 flex justify-center items-center h-8 w-8 rounded-full absolute md:top-[50%] left-8 top-[40%]">
                     <i class="fa-solid fa-arrow-left"></i>
                 </div>
-                <div class="text-center">
-                    <h2>Meet your summer style</h2>
-                    <p>Kick your feet up. We take care of photography, listing, shipping and everything in between.</p>
-                    <button class="uppercase bg-gray-50 text-black font-medium text-sm">Shop New Arrivals</button>
+                <div class="text-center text-white flex flex-col justify-center items-center gap-3 px-8 absolute top-[20%] md:left-[10%] md:top-[25]">
+                    <h2 class="text-4xl md:text-6xl">Meet your summer style</h2>
+                    <p class="md:text-2xl">Kick your feet up. We take care of photography, listing, shipping and everything in between.</p>
+                    <button class="uppercase bg-gray-50 text-black font-medium text-sm px-3 py-2 rounded-md">Shop New Arrivals</button>
                 </div>
                 <div
                     class="bg-white p-4 flex justify-center items-center h-8 w-8 rounded-full absolute md:top-[50%] right-8 top-[40%]">
@@ -169,7 +169,871 @@
         
         </div>
 
+        <!-- Horizontal Scroll Bar -->
+        <div class="px-6 py-4">
+            <h2 class="text-2xl md:text-4xl font-normal text-center">Endless dresses. Only one you.</h2>
+            <div class="flex gap-4 py-4 justify-center items-center">
+                <div>
+                    <img class="w-[800px] md:w-[200px]" src="https://cf-assets-clover-app.thredup.com/uploads/2025-05-30/desktop-smallTitleCard%20%283%29-4e13409b.jpg" alt="">
+                </div>
+                <div>
+                    <img class="w-[800px] md:w-[200px]" src="https://cf-assets-clover-app.thredup.com/uploads/2025-05-30/desktop-smallTitleCard-1-c023623f.jpg" alt="">
+                </div>
+                <div>
+                    <img class="w-[800px] md:w-[200px]" src="https://cf-assets-clover-app.thredup.com/uploads/2025-05-30/desktop-smallTitleCard-2-a29efe13.jpg" alt="">
+                </div>
+                <div>
+                    <img class="w-[800px] md:w-[200px]" src="https://cf-assets-clover-app.thredup.com/uploads/2025-05-30/desktop-smallTitleCard-3-3b746dec.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- Horizontal Scroll Bar - Most Favorited -->
+        <div class="py-4 bg-gray-100 px-2 md:px-1">
+            <div class="flex justify-between">
+                <h2 class="text-2xl px-2 font-medium">Most favorited</h2>
+                <div class="gap-2 justify-center hidden sm:flex items-center px-3">
+                    <button class="border border-gray-600 hover:-translate-y-1 transition-transform px-10 py-2 rounded-md uppercase">Shop All</button>
+                    <div class="bg-gray-200 p-4 flex justify-center items-center h-10 w-10 rounded-full">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </div>
+                    <div class="bg-white p-4 flex justify-center items-center h-10 w-10 rounded-full">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="flex gap-4 overflow-x-scroll mt-4">
+                <div class="relative bg-gray-50 px-3 py-2 min-w-[200px] rounded-lg">
+                    <div class="flex justify-center">
+                        <img class="w-[200px]" src="https://cf-assets-thredup.thredup.com/assets/721730746/complimentary.jpg"
+                            alt="">
+                    </div>
+                    <div class="flex justify-center items-center gap-2 absolute top-1 right-1">
+                        <span>184</span>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="flex flex-col leading-snug">
+                        <h3 class="font-medium">Coach</h3>
+                        <p class="text-sm">Leather Crossbox Bag</p>
+                        <p class="flex flex-col">
+                            <div class="flex flex-row text-sm gap-2">
+                                <span class="font-medium">$111.74</span>
+                                <span class="font-medium text-red-500">$55.87</span>
+                            </div>
+                            <span class="text-red-500 text-sm">50% off with code FIRST50</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="relative bg-gray-50 px-3 py-2 min-w-[200px] rounded-lg">
+                    <div class="flex justify-center">
+                        <img class="w-[200px]" src="https://cf-assets-thredup.thredup.com/assets/722459055/complimentary.jpg"
+                            alt="">
+                    </div>
+                    <div class="flex justify-center items-center gap-2 absolute top-1 right-1">
+                        <span>184</span>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="flex flex-col leading-snug">
+                        <h3 class="font-medium">J.Crew</h3>
+                        <p class="text-sm">Size S</p>
+                        <p class="flex flex-col">
+                            <div class="flex flex-row text-sm gap-2">
+                                <span class="font-medium">$79.99</span>
+                                <span class="font-medium text-red-500">$37.99</span>
+                            </div>
+                            <span class="text-red-500 text-sm">50% off with code FIRST50</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="relative bg-gray-50 px-3 py-2 min-w-[200px] rounded-lg">
+                    <div class="flex justify-center">
+                        <img class="w-[200px]" src="https://cf-assets-thredup.thredup.com/assets/722652480/complimentary.jpg"
+                            alt="">
+                    </div>
+                    <div class="flex justify-center items-center gap-2 absolute top-1 right-1">
+                        <span>184</span>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="flex flex-col leading-snug">
+                        <h3 class="font-medium">Free People</h3>
+                        <p class="text-sm">Size S</p>
+                        <p class="flex flex-col">
+                            <div class="flex flex-row text-sm gap-2">
+                                <span class="font-medium">$50.74</span>
+                                <span class="font-medium text-red-500">$25.87</span>
+                            </div>
+                            <span class="text-red-500 text-sm">50% off with code FIRST50</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="relative bg-gray-50 px-3 py-2 min-w-[200px] rounded-lg">
+                    <div class="flex justify-center">
+                        <img class="w-[200px]" src="https://cf-assets-thredup.thredup.com/assets/722016216/complimentary.jpg"
+                            alt="">
+                    </div>
+                    <div class="flex justify-center items-center gap-2 absolute top-1 right-1">
+                        <span>184</span>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="flex flex-col leading-snug">
+                        <h3 class="font-medium">Free People</h3>
+                        <p class="text-sm">Satchel</p>
+                        <p class="flex flex-col">
+                            <div class="flex flex-row text-sm gap-2">
+                                <span class="font-medium">$57.79</span>
+                                <span class="font-medium text-red-500">$28.37</span>
+                            </div>
+                            <span class="text-red-500 text-sm">50% off with code FIRST50</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="relative bg-gray-50 px-3 py-2 min-w-[200px] rounded-lg">
+                    <div class="flex justify-center">
+                        <img class="w-[200px]" src="https://cf-assets-thredup.thredup.com/assets/721548870/complimentary.jpg"
+                            alt="">
+                    </div>
+                    <div class="flex justify-center items-center gap-2 absolute top-1 right-1">
+                        <span>184</span>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="flex flex-col leading-snug">
+                        <h3 class="font-medium">Free People</h3>
+                        <p class="text-sm">Size M</p>
+                        <p class="flex flex-col">
+                            <div class="flex flex-row text-sm gap-2">
+                                <span class="font-medium">$46.74</span>
+                                <span class="font-medium text-red-500">$23.37</span>
+                            </div>
+                            <span class="text-red-500 text-sm">50% off with code FIRST50</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="relative bg-gray-50 px-3 py-2 min-w-[200px] rounded-lg">
+                    <div class="flex justify-center">
+                        <img class="w-[200px]" src="https://cf-assets-thredup.thredup.com/assets/721948861/complimentary.jpg"
+                            alt="">
+                    </div>
+                    <div class="flex justify-center items-center gap-2 absolute top-1 right-1">
+                        <span>184</span>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="flex flex-col leading-snug">
+                        <h3 class="font-medium">Sandro</h3>
+                        <p class="text-sm">Size S</p>
+                        <p class="flex flex-col">
+                            <div class="flex flex-row text-sm gap-2">
+                                <span class="font-medium">$31.99</span>
+                                <span class="font-medium text-red-500">$15.99</span>
+                            </div>
+                            <span class="text-red-500 text-sm">50% off with code FIRST50</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="relative bg-gray-50 px-3 py-2 min-w-[200px] rounded-lg">
+                    <div class="flex justify-center">
+                        <img class="w-[200px]" src="https://cf-assets-thredup.thredup.com/assets/720597197/complimentary.jpg"
+                            alt="">
+                    </div>
+                    <div class="flex justify-center items-center gap-2 absolute top-1 right-1">
+                        <span>184</span>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="flex flex-col leading-snug">
+                        <h3 class="font-medium">Madewell</h3>
+                        <p class="text-sm">Size XS</p>
+                        <p class="flex flex-col">
+                            <div class="flex flex-row text-sm gap-2">
+                                <span class="font-medium">$54.99</span>
+                                <span class="font-medium text-red-500">$27.49</span>
+                            </div>
+                            <span class="text-red-500 text-sm">50% off with code FIRST50</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="py-4 sm:hidden">
+                <button class="border border-gray-800 w-full hover:-translate-y-1 transition-transform px-10 py-2 rounded-md uppercase text-sm font-medium">Shop All</button>
+            </div>
+        </div>
+
+         <!-- Horizontal Scroll Bar -->
+        <div class="px-6 py-4">
+            <h2 class="text-2xl md:text-4xl py-2 font-normal text-center">Colors of paradise</h2>
+            <p class="text-center font-light text-sm">Hunt for the hues that will bring the heat to yout look.</p>
+            <div class="flex gap-4 py-4 justify-center items-center">
+                <div>
+                    <img class="w-[800px] md:w-[200px]" src="https://cf-assets-clover-app.thredup.com/uploads/2025-05-30/desktop-smallTitleCard-3b4b70ec.jpg" alt="">
+                </div>
+                <div>
+                    <img class="w-[800px] md:w-[200px]" src="https://cf-assets-clover-app.thredup.com/uploads/2025-05-30/desktop-smallTitleCard-2-8762e095.jpg" alt="">
+                </div>
+                <div>
+                    <img class="w-[800px] md:w-[200px]" src="https://cf-assets-clover-app.thredup.com/uploads/2025-05-30/desktop-smallTitleCard-2-a29efe13.jpg" alt="">
+                </div>
+                <div>
+                    <img class="w-[800px] md:w-[200px]" src="https://cf-assets-clover-app.thredup.com/uploads/2025-05-30/desktop-smallTitleCard-3-dabc760b.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- Bag Section -->
+        <div class="bg-blue-200 md:mx-16 md:my-4 mx-3 rounded-sm flex flex-col md:flex-row ">
+            <div class=" py-8 px-8 flex flex-1 flex-col gap-2 justify-center items-center md:items-start text-center md:ml-10">
+                <h2 class="text-3xl">Keep your closet circular</h2>
+                <p class="text-sm">Wear it, love it, set it free. Earn cash while keeping clothes out of landfill.</p>
+                <a class="font-medium border-b border-black uppercase" href="#">order a clean out bag</a>
+            </div>
+            <div class="flex-1" id="bag-img">
+                <img src="https://cf-assets-clover-app.thredup.com/uploads/2025-05-30/right%20%2817%29-35af5a8b.jpg" alt="">
+            </div>
+        </div>
+
+         <!-- Horizontal Scroll Bar - Top Brands-->
+        <div class="px-6 py-4">
+            <h2 class="text-2xl md:text-4xl py-2 font-normal text-center">Top Brands. Best prices.</h2>
+            <p class="text-center font-light text-sm">Score the labels you love for way less.</p>
+            <div class="flex gap-4 py-4 justify-center items-center">
+                <div>
+                    <img class="w-[800px] md:w-[200px]" src="https://cf-assets-clover-app.thredup.com/uploads/2025-05-27/Frame%2028441-6fe1d398.jpg" alt="">
+                </div>
+                <div>
+                    <img class="w-[800px] md:w-[200px]" src="https://cf-assets-clover-app.thredup.com/uploads/2025-05-27/Frame%2028439-9c92264c.jpg" alt="">
+                </div>
+                <div>
+                    <img class="w-[800px] md:w-[200px]" src="https://cf-assets-clover-app.thredup.com/uploads/2025-05-27/Frame%2028432-8b178a05.jpg" alt="">
+                </div>
+                <div>
+                    <img class="w-[800px] md:w-[200px]" src="https://cf-assets-clover-app.thredup.com/uploads/2025-05-27/Frame%2028440-dd175661.jpg" alt="">
+                </div>
+                <div>
+                    <img class="w-[800px] md:w-[200px]" src="https://cf-assets-clover-app.thredup.com/uploads/2025-05-27/Frame%2028434-a831c8cd.jpg" alt="">
+                </div>
+                <div>
+                    <img class="w-[800px] md:w-[200px]" src="https://cf-assets-clover-app.thredup.com/uploads/2025-05-19/Frame%2028437-9f1c3961.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- All About the accents -->
+        <div class="px-6 py-2">
+            <h2 class="text-2xl md:text-4xl py-2 font-normal text-center">All about the accents</h2>
+            <p class="text-center font-light text-sm">Top off your look with secondhand accessories.</p>
+            <div class="flex h-70 gap-2 py-4 flex-wrap">
+                <div class="hidden md:flex flex-1 rounded-md justify-center items-center lg:items-start lg:pl-16 flex-col gap-2 bg-gray-100">
+                    <h3 class="text-xl lg:text-2xl">Accessories</h3>
+                    <a class="uppercase lg:min-w-[200px] border text-[10px] w-fit px-2 py-2 lg:px-12 lg:py-3 rounded-sm lg:text-sm font-medium" href="#">Sunglasses</a>
+                    <a class="uppercase lg:min-w-[200px] border text-[10px] w-fit px-2 py-2 lg:px-10 lg:py-3 rounded-sm lg:text-sm font-medium" href="#">head scarves</a>
+                    <a class="uppercase lg:min-w-[200px] border text-[10px] w-fit px-2 py-2 lg:px-8 lg:py-3 rounded-sm lg:text-sm font-medium" href="#">Statement belts</a>
+                </div>
+
+                <div class="h-full w-full rounded-lg flex-1" id="image">
+                    <!-- <img src="https://cf-assets-clover-app.thredup.com/uploads/2025-04-30/image-93095da9.jpg" alt=""> -->
+                </div>
+
+                <div class="hidden md:flex flex-col rounded-lg justify-center items-center lg:items-start lg:pl-16 flex-1 gap-2 bg-gray-100">
+                    <h3 class="text-xl lg:text-2xl">Bags</h3>
+                    <a class="uppercase text-[10px] lg:min-w-[200px] border w-fit px-2 py-2 lg:px-8 lg:py-3 rounded-sm lg:text-sm font-medium" href="#">Crossbody Bags</a>
+                    <a class="uppercase text-[10px] lg:min-w-[200px] border w-fit px-2 py-2 lg:px-9 lg:py-3 rounded-sm lg:text-sm font-medium" href="#">vacation totes</a>
+                    <a class="uppercase text-[10px] lg:min-w-[200px] border w-fit px-2 py-2 lg:px-9 lg:py-3 rounded-sm lg:text-sm font-medium" href="#">shoulder bags</a>
+                </div>
+
+                <div class="flex-1 rounded-md" id="image2">
+                    <!-- <img src="https://cf-assets-clover-app.thredup.com/uploads/2025-04-30/image-1-ff854540.jpg" alt=""> -->
+                </div>
+            </div>
+        </div>
+
+         <!-- Horizontal Scroll Bar - Vacation Mode -->
+        <div class="py-4 px-2 md:px-1">
+            <div class="flex justify-between">
+                <h2 class="text-2xl px-2 font-medium">Vacation Mode</h2>
+                <div class="gap-2 justify-center hidden sm:flex items-center px-3">
+                    <button class="border border-gray-600 hover:-translate-y-1 transition-transform px-10 py-2 rounded-md uppercase">Shop All</button>
+                    <div class="bg-gray-200 p-4 flex justify-center items-center h-10 w-10 rounded-full">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </div>
+                    <div class="bg-white shadow-md p-4 flex justify-center items-center h-10 w-10 rounded-full">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="flex gap-4 overflow-x-scroll mt-4">
+                <div class="relative bg-gray-50 px-3 py-2 min-w-[200px] rounded-lg">
+                    <div class="flex justify-center">
+                        <img class="w-[200px]" src="https://cf-assets-thredup.thredup.com/assets/701459348/complimentary.jpg"
+                            alt="">
+                    </div>
+                    <div class="flex justify-center items-center gap-2 absolute top-1 right-1">
+                        <span>184</span>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="flex flex-col leading-snug">
+                        <h3 class="font-medium">Assorted Brands</h3>
+                        <p class="text-sm">Size S</p>
+                        <p class="flex flex-col">
+                            <div class="flex flex-row text-sm gap-2">
+                                <span class="font-medium">$23.74</span>
+                                <span class="font-medium text-red-500">$11.99</span>
+                            </div>
+                            <span class="text-red-500 text-sm">50% off with code FIRST50</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="relative bg-gray-50 px-3 py-2 min-w-[200px] rounded-lg">
+                    <div class="flex justify-center">
+                        <img class="w-[200px]" src="https://cf-assets-thredup.thredup.com/assets/646441933/complimentary.jpg"
+                            alt="">
+                    </div>
+                    <div class="flex justify-center items-center gap-2 absolute top-1 right-1">
+                        <span>184</span>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="flex flex-col leading-snug">
+                        <h3 class="font-medium">Unbranded</h3>
+                        <p class="text-sm">Size S</p>
+                        <p class="flex flex-col">
+                            <div class="flex flex-row text-sm gap-2">
+                                <span class="font-medium">$22.99</span>
+                                <span class="font-medium text-red-500">$11.49</span>
+                            </div>
+                            <span class="text-red-500 text-sm">50% off with code FIRST50</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="relative bg-gray-50 px-3 py-2 min-w-[200px] rounded-lg">
+                    <div class="flex justify-center">
+                        <img class="w-[200px]" src="https://cf-assets-thredup.thredup.com/assets/704674749/complimentary.jpg"
+                            alt="">
+                    </div>
+                    <div class="flex justify-center items-center gap-2 absolute top-1 right-1">
+                        <span>184</span>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="flex flex-col leading-snug">
+                        <h3 class="font-medium">Ella Moss</h3>
+                        <p class="text-sm">Size XS</p>
+                        <p class="flex flex-col">
+                            <div class="flex flex-row text-sm gap-2">
+                                <span class="font-medium">$49.74</span>
+                                <span class="font-medium text-red-500">$24.87</span>
+                            </div>
+                            <span class="text-red-500 text-sm">50% off with code FIRST50</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="relative bg-gray-50 px-3 py-2 min-w-[200px] rounded-lg">
+                    <div class="flex justify-center">
+                        <img class="w-[200px]" src="https://cf-assets-thredup.thredup.com/assets/708315074/complimentary.jpg"
+                            alt="">
+                    </div>
+                    <div class="flex justify-center items-center gap-2 absolute top-1 right-1">
+                        <span>184</span>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="flex flex-col leading-snug">
+                        <h3 class="font-medium">Free People</h3>
+                        <p class="text-sm">Satchel</p>
+                        <p class="flex flex-col">
+                            <div class="flex flex-row text-sm gap-2">
+                                <span class="font-medium">$57.79</span>
+                                <span class="font-medium text-red-500">$28.37</span>
+                            </div>
+                            <span class="text-red-500 text-sm">50% off with code FIRST50</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="relative bg-gray-50 px-3 py-2 min-w-[200px] rounded-lg">
+                    <div class="flex justify-center">
+                        <img class="w-[200px]" src="https://cf-assets-thredup.thredup.com/assets/685727108/complimentary.jpg"
+                            alt="">
+                    </div>
+                    <div class="flex justify-center items-center gap-2 absolute top-1 right-1">
+                        <span>184</span>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="flex flex-col leading-snug">
+                        <h3 class="font-medium">autumn adeigbo</h3>
+                        <p class="text-sm">Size M</p>
+                        <p class="flex flex-col">
+                            <div class="flex flex-row text-sm gap-2">
+                                <span class="font-medium">$89.74</span>
+                                <span class="font-medium text-red-500">$44.37</span>
+                            </div>
+                            <span class="text-red-500 text-sm">50% off with code FIRST50</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="relative bg-gray-50 px-3 py-2 min-w-[200px] rounded-lg">
+                    <div class="flex justify-center">
+                        <img class="w-[200px]" src="https://cf-assets-thredup.thredup.com/assets/706665315/complimentary.jpg"
+                            alt="">
+                    </div>
+                    <div class="flex justify-center items-center gap-2 absolute top-1 right-1">
+                        <span>184</span>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="flex flex-col leading-snug">
+                        <h3 class="font-medium">Sandro</h3>
+                        <p class="text-sm">Size S</p>
+                        <p class="flex flex-col">
+                            <div class="flex flex-row text-sm gap-2">
+                                <span class="font-medium">$31.99</span>
+                                <span class="font-medium text-red-500">$15.99</span>
+                            </div>
+                            <span class="text-red-500 text-sm">50% off with code FIRST50</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="relative bg-gray-50 px-3 py-2 min-w-[200px] rounded-lg">
+                    <div class="flex justify-center">
+                        <img class="w-[200px]" src="https://cf-assets-thredup.thredup.com/assets/720597197/complimentary.jpg"
+                            alt="">
+                    </div>
+                    <div class="flex justify-center items-center gap-2 absolute top-1 right-1">
+                        <span>184</span>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="flex flex-col leading-snug">
+                        <h3 class="font-medium">Madewell</h3>
+                        <p class="text-sm">Size XS</p>
+                        <p class="flex flex-col">
+                            <div class="flex flex-row text-sm gap-2">
+                                <span class="font-medium">$54.99</span>
+                                <span class="font-medium text-red-500">$27.49</span>
+                            </div>
+                            <span class="text-red-500 text-sm">50% off with code FIRST50</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="py-4 sm:hidden">
+                <button class="border border-gray-800 w-full hover:-translate-y-1 transition-transform px-10 py-2 rounded-md uppercase text-sm font-medium">Shop All</button>
+            </div>
+        </div>
+
+        <!-- Try style chat -->
+        <div class="bg-primary md:mx-16 md:my-6 mx-3 my-2 rounded-sm flex flex-col md:flex-row ">
+            <div class=" py-8 px-8 flex flex-1 flex-col gap-2 justify-center items-center md:items-start text-center md:ml-10">
+                <h2 class="text-3xl">Need summer wedding looks stat?</h2>
+                <p class="text-sm">Ask Style Chat to find your signature style in a snap.</p>
+                <a class="font-medium border-b border-black uppercase" href="#">Try Style Chat</a>
+            </div>
+            <div class="flex-1" id="bag-img">
+                <img src="	https://cf-assets-clover-app.thredup.com/uploads/2025-06-02/right%20%2818%29-cc029a52.jpg" alt="">
+            </div>
+        </div>
+
+         <!-- Horizontal Scroll Bar - Suns out, shorts on -->
+        <div class="py-4 px-2 md:px-1">
+            <div class="flex justify-between">
+                <h2 class="text-2xl px-2 font-medium">Suns out, shorts on</h2>
+                <div class="gap-2 justify-center hidden sm:flex items-center px-3">
+                    <button class="border border-gray-600 hover:-translate-y-1 transition-transform px-10 py-2 rounded-md uppercase">Shop All</button>
+                    <div class="bg-gray-200 p-4 flex justify-center items-center h-10 w-10 rounded-full">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </div>
+                    <div class="bg-white shadow-md p-4 flex justify-center items-center h-10 w-10 rounded-full">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="flex gap-4 overflow-x-scroll mt-4">
+                <div class="relative bg-gray-50 px-3 py-2 min-w-[200px] rounded-lg">
+                    <div class="flex justify-center">
+                        <img class="w-[200px]" src="https://cf-assets-thredup.thredup.com/assets/721123615/complimentary.jpg" alt="">
+                    </div>
+                    <div class="flex justify-center items-center gap-2 absolute top-1 right-1">
+                        <span>184</span>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="flex flex-col leading-snug">
+                        <h3 class="font-medium">Amazon Essentials</h3>
+                        <p class="text-sm">Size 8</p>
+                        <p class="flex flex-col">
+                            <div class="flex flex-row text-sm gap-2">
+                                <span class="font-medium">$12.74</span>
+                                <span class="font-medium text-red-500">$6.87</span>
+                            </div>
+                            <span class="text-red-500 text-sm">50% off with code FIRST50</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="relative bg-gray-50 px-3 py-2 min-w-[200px] rounded-lg">
+                    <div class="flex justify-center">
+                        <img class="w-[200px]" src="https://cf-assets-thredup.thredup.com/assets/717939724/complimentary.jpg" alt="">
+                    </div>
+                    <div class="flex justify-center items-center gap-2 absolute top-1 right-1">
+                        <span>184</span>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="flex flex-col leading-snug">
+                        <h3 class="font-medium">Old Navy</h3>
+                        <p class="text-sm">Size L</p>
+                        <p class="flex flex-col">
+                            <div class="flex flex-row text-sm gap-2">
+                                <span class="font-medium">$15.99</span>
+                                <span class="font-medium text-red-500">$7.99</span>
+                            </div>
+                            <span class="text-red-500 text-sm">50% off with code FIRST50</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="relative bg-gray-50 px-3 py-2 min-w-[200px] rounded-lg">
+                    <div class="flex justify-center">
+                        <img class="w-[200px]" src="https://cf-assets-thredup.thredup.com/assets/715008348/complimentary.jpg" alt="">
+                    </div>
+                    <div class="flex justify-center items-center gap-2 absolute top-1 right-1">
+                        <span>184</span>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="flex flex-col leading-snug">
+                        <h3 class="font-medium">Made for Life</h3>
+                        <p class="text-sm">Size S</p>
+                        <p class="flex flex-col">
+                            <div class="flex flex-row text-sm gap-2">
+                                <span class="font-medium">$16.74</span>
+                                <span class="font-medium text-red-500">$8.87</span>
+                            </div>
+                            <span class="text-red-500 text-sm">50% off with code FIRST50</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="relative bg-gray-50 px-3 py-2 min-w-[200px] rounded-lg">
+                    <div class="flex justify-center">
+                        <img class="w-[200px]" src="https://cf-assets-thredup.thredup.com/assets/719784741/complimentary.jpg"
+                            alt="">
+                    </div>
+                    <div class="flex justify-center items-center gap-2 absolute top-1 right-1">
+                        <span>184</span>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="flex flex-col leading-snug">
+                        <h3 class="font-medium">Express Outlet</h3>
+                        <p class="text-sm">Size M</p>
+                        <p class="flex flex-col">
+                            <div class="flex flex-row text-sm gap-2">
+                                <span class="font-medium">$17.79</span>
+                                <span class="font-medium text-red-500">$9.37</span>
+                            </div>
+                            <span class="text-red-500 text-sm">50% off with code FIRST50</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="relative bg-gray-50 px-3 py-2 min-w-[200px] rounded-lg">
+                    <div class="flex justify-center">
+                        <img class="w-[200px]" src="https://cf-assets-thredup.thredup.com/assets/721346283/complimentary.jpg"
+                            alt="">
+                    </div>
+                    <div class="flex justify-center items-center gap-2 absolute top-1 right-1">
+                        <span>184</span>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="flex flex-col leading-snug">
+                        <h3 class="font-medium">Nike</h3>
+                        <p class="text-sm">Size S</p>
+                        <p class="flex flex-col">
+                            <div class="flex flex-row text-sm gap-2">
+                                <span class="font-medium">$19.74</span>
+                                <span class="font-medium text-red-500">$9.37</span>
+                            </div>
+                            <span class="text-red-500 text-sm">50% off with code FIRST50</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="relative bg-gray-50 px-3 py-2 min-w-[200px] rounded-lg">
+                    <div class="flex justify-center">
+                        <img class="w-[200px]" src="https://cf-assets-thredup.thredup.com/assets/718310222/complimentary.jpg"
+                            alt="">
+                    </div>
+                    <div class="flex justify-center items-center gap-2 absolute top-1 right-1">
+                        <span>184</span>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="flex flex-col leading-snug">
+                        <h3 class="font-medium">Express Outlet</h3>
+                        <p class="text-sm">Size S</p>
+                        <p class="flex flex-col">
+                            <div class="flex flex-row text-sm gap-2">
+                                <span class="font-medium">$14.99</span>
+                                <span class="font-medium text-red-500">$7.99</span>
+                            </div>
+                            <span class="text-red-500 text-sm">50% off with code FIRST50</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="relative bg-gray-50 px-3 py-2 min-w-[200px] rounded-lg">
+                    <div class="flex justify-center">
+                        <img class="w-[200px]" src="https://cf-assets-thredup.thredup.com/assets/715008348/complimentary.jpg" alt="">
+                    </div>
+                    <div class="flex justify-center items-center gap-2 absolute top-1 right-1">
+                        <span>184</span>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="flex flex-col leading-snug">
+                        <h3 class="font-medium">Made for Life</h3>
+                        <p class="text-sm">Size XS</p>
+                        <p class="flex flex-col">
+                            <div class="flex flex-row text-sm gap-2">
+                                <span class="font-medium">$18.99</span>
+                                <span class="font-medium text-red-500">$9.49</span>
+                            </div>
+                            <span class="text-red-500 text-sm">50% off with code FIRST50</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="py-4 sm:hidden">
+                <button class="border border-gray-800 w-full hover:-translate-y-1 transition-transform px-10 py-2 rounded-md uppercase text-sm font-medium">Shop All</button>
+            </div>
+        </div>
+
+        <!-- small horizontal scroll bar -->
+        <div class="px-6 py-4">
+            <div class="flex overflow-scroll gap-2">
+                <div class="min-w-[300px] md:min-w-[400px] p-4 shadow-lg">
+                    <img src="https://cf-assets-clover-app.thredup.com/uploads/2025-04-21/image%20%2813%29-9171fec7.jpg" alt="">
+                    <h3 class="text-lg">Denim rescue boxes are back!</h3>
+                    <p class="text-sm">With a little dye magic, these Rescue Bokes are perfectly for your next upcycling project.</p>
+                </div>
+                <div class="min-w-[300px] md:min-w-[400px] p-4 shadow-lg">
+                    <img src="https://cf-assets-clover-app.thredup.com/uploads/2025-02-18/image%20%2828%29-bc54c5e2.png" alt="">
+                    <h3 class="text-lg">Denim rescue boxes are back!</h3>
+                    <p class="text-sm">With a little dye magic, these Rescue Bokes are perfectly for your next upcycling project.</p>
+                </div>
+                <div class="min-w-[300px] md:min-w-[400px] p-4 shadow-lg">
+                    <img src="https://cf-assets-clover-app.thredup.com/uploads/2025-01-20/image%20%2823%29-25590142.png" alt="">
+                    <h3 class="text-lg">Denim rescue boxes are back!</h3>
+                    <p class="text-sm">With a little dye magic, these Rescue Bokes are perfectly for your next upcycling project.</p>
+                </div>
+                <div class="min-w-[300px] md:min-w-[400px] p-4 shadow-lg">
+                    <img src="https://cf-assets-clover-app.thredup.com/uploads/2025-02-27/image%20%2830%29-d3c28489.png" alt="">
+                    <h3 class="text-lg">Denim rescue boxes are back!</h3>
+                    <p class="text-sm">With a little dye magic, these Rescue Bokes are perfectly for your next upcycling project.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Wasteless -->
+        <div class="px-6 py-4 bg-gray-50">
+            <div class="p-6 flex flex-col justify-center items-center">
+                <div class="py-6 text-center flex flex-col gap-4">
+                    <span class="text-sm font-medium uppercase">Thrift More</span>
+                    <h2 class="text-6xl uppercase tracking-tight font-oswald">Wasteless</h2>
+                </div>
+                <div class="flex flex-col md:flex-row gap-6 py-12 px-8 max-w-[80%]">
+                    <div class="flex flex-col justify-center gap-4 items-center text-center">
+                        <img src="./images/umbrella.svg" alt="">
+                        <h3 class="text-4xl">Find it</h3>
+                        <p class="text-sm">Discover the thrill of finding one-of-a-kind pieces at out-og-thi-world prices.</p>
+                    </div>
+                    <div class="flex flex-col justify-center gap-4 items-center text-center">
+                        <img src="./images/star.svg" alt="">
+                        <h3 class="text-4xl">Flaunt it</h3>
+                        <p class="text-sm">Show off your secondhand clothes with pride, knowing you saved money and the planet.</p>
+                    </div>
+                    <div class="flex flex-col justify-center gap-4 items-center text-center">
+                        <img class="w-12" src="./images/triangle.svg" alt="">
+                        <h3 class="text-4xl">Set it free</h3>
+                        <p class="text-sm">Feel good about releasing your unwanted clothes to thrifters who will love them.</p>
+                    </div>
+                </div>
+                <button class="uppercase text-sm font-medium border px-12 py-3 rounded-sm">read about us</button>
+            </div>
+        </div>
+
+        <!-- small horizontal scroll bar -->
+        <div class="px-6 py-4">
+            <h2 class="text-center text-2xl p-2">Check out our Thredit blogs</h2>
+            <div class="flex overflow-scroll gap-2">
+                <div class="min-w-[300px] md:min-w-[400px] p-4 shadow-lg">
+                    <img src="https://cf-assets-clover-app.thredup.com/uploads/2025-05-29/Template-aa687615.jpg" alt="">
+                    <h3 class="text-lg">7 Summer Boho Essentials</h3>
+                    <p class="text-sm">Bohemian style never goes out of season—but summer is when it truly shines.</p>
+                </div>
+                <div class="min-w-[300px] md:min-w-[400px] p-4 shadow-lg">
+                    <img src="https://cf-assets-clover-app.thredup.com/uploads/2025-05-22/Frame%2029146%20%282%29-7c798ffa.jpg" alt="">
+                    <h3 class="text-lg">Color of Summer: Ocean Blue</h3>
+                    <p class="text-sm">Summer 2025 has spoken—and its favorite hue is loud, proud.</p>
+                </div>
+                <div class="min-w-[300px] md:min-w-[400px] p-4 shadow-lg">
+                    <img src="https://cf-assets-clover-app.thredup.com/uploads/2025-05-15/Frame%2029144%20%282%29-5605ff98.jpg" alt="">
+                    <h3 class="text-lg">Summer Wedding Guest Dress</h3>
+                    <p class="text-sm">Overthinking what to wear to that wedding?</p>
+                </div>
+                <div class="min-w-[300px] md:min-w-[400px] p-4 shadow-lg">
+                    <img src="https://cf-assets-clover-app.thredup.com/uploads/2025-03-27/Frame%2029155-69954d71.jpg" alt="">
+                    <h3 class="text-lg">Denim rescue boxes are back!</h3>
+                    <p class="text-sm">Who says suiting has to be boring? Word on the street is you can.</p>
+                </div>
+                <div class="min-w-[300px] md:min-w-[400px] p-4 shadow-lg">
+                    <img src="https://cf-assets-clover-app.thredup.com/uploads/2025-03-20/Frame%2029144%20%281%29-f515711c.jpg" alt="">
+                    <h3 class="text-lg">Denim rescue boxes are back!</h3>
+                    <p class="text-sm">Who says suiting has to be boring? Word on the street is you can.</p>
+                </div>
+                <div class="min-w-[300px] md:min-w-[400px] p-4 shadow-lg">
+                    <img src="https://cf-assets-clover-app.thredup.com/uploads/2024-09-12/image-1-7a5d42c4.png" alt="">
+                    <h3 class="text-lg">Denim rescue boxes are back!</h3>
+                    <p class="text-sm">Who says suiting has to be boring? Word on the street is you can.</p>
+                </div>
+                <div class="min-w-[300px] md:min-w-[400px] p-4 shadow-lg">
+                    <img src="https://cf-assets-clover-app.thredup.com/uploads/2024-09-12/image-3-e244474a.png" alt="">
+                    <h3 class="text-lg">Denim rescue boxes are back!</h3>
+                    <p class="text-sm">Who says suiting has to be boring? Word on the street is you can.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Description -->
+         <div class="px-6 py-4 bg-gray-100 rounded-md my-4 md:mx-16">
+            <div class="flex flex-col p-4 gap-2">
+                <h3 class="md:text-xl text-normal text-center font-semibold">Discover one of the world’s largest online consignment & thrift stores.</h3>
+                <p class="text-xs">As one of the world’s largest online resale platforms for women’s and kids’ apparel, shoes, and accessories, our mission is to inspire a new generation of shoppers to think secondhand clothes first. You can shop like-new and used women’s clothes and kids’ clothes at up to 90% off estimated retail at our online thrift store and consignment shop. From Gap to Gucci, we have all your favorite brands (including Lululemon, Anthropologie, Madewell & more!) for less. Plus, enjoy thousands of arrivals every day. Happy thrifting!</p>
+            </div>
+         </div>
     </main>
+
+    <!-- Footer -->
+    <footer class="mt-4 bg-gray-100">
+        <div class="py-10 px-6 flex justify-center 2xl:text-sm items-center flex-col">
+            <div class="flex flex-wrap sm:gap-14 gap-4 py-4 pb-8 border-b border-gray-800">
+                <div class="flex flex-col gap-4">
+                    <h2 class="text-xs font-semibold uppercase">The Company</h2>
+                    <ul class="text-xs flex flex-col gap-4">
+                        <li>About Us</li>
+                        <li>Blog</li>
+                        <li>Resale Report</li>
+                        <li>Our Impact</li>
+                        <li>Careers</li>
+                        <li>Resale-as-a-Servicce</li>
+                        <li>Newsroom</li>
+                        <li>Investors</li>
+                        <li>FAQ</li>
+                        <li>Return Policy</li>
+                        <li>Reviews</li>
+                    </ul>
+                </div>
+
+                <div class="flex flex-col gap-4">
+                    <h2 class="text-xs font-semibold uppercase">Department</h2>
+                    <ul class="text-xs flex flex-col gap-4">
+                        <li>Women</li>
+                        <li>Kids</li>
+                        <li>Juniors</li>
+                        <li>Designer</li>
+                        <li>Maternity</li>
+                        <li>Plus</li>
+                        <li>Shoes</li>
+                        <li>Handbags</li>
+                        <li>Accessories</li>
+                    </ul>
+                </div>
+
+                <div class="flex flex-col gap-4">
+                    <h2 class="text-xs font-semibold uppercase">Top Brands</h2>
+                    <ul class="text-xs flex flex-col gap-4">
+                        <li>J.Crew</li>
+                        <li>Ann Taylor LOFT</li>
+                        <li>Banan Republic</li>
+                        <li>BCBGMAXAZRIA</li>
+                        <li>Lululemon Athletica</li>
+                        <li>Talbots</li>
+                        <li>Free People</li>
+                        <li>Lilly Puitzer</li>
+                        <li>Madewell</li>
+                        <li>Shop Akk Brands</li>
+                        <li>Reviews</li>
+                    </ul>
+                </div>
+
+                <div class="flex flex-col gap-4">
+                    <h2 class="text-xs font-semibold uppercase">Trending</h2>
+                    <ul class="text-xs flex flex-col gap-4">
+                        <li>Spring Dresses</li>
+                        <li>Y2K Skirts</li>
+                        <li>Denim Jackets</li>
+                        <li>Boho Maxi Dresses</li>
+                        <li>Knitted Cardigans</li>
+                        <li>Floral Cresses</li>
+                        <li>Maxi Skirts</li>
+                        <li>Maxi Skirts</li>
+                        <li>Platform Espadrilles</li>
+                    </ul>
+                </div>
+
+                <div class="flex flex-col gap-4">
+                    <h2 class="text-xs font-semibold uppercase">Discover</h2>
+                    <ul class="text-xs flex flex-col gap-4">
+                        <li>Rescue</li>
+                        <li>Size Guide</li>
+                        <li>ThredUp Rewards</li>
+                        <li>Gift Cards</li>
+                        <li>Discount Codes</li>
+                        <li>Sitemap</li>
+                    </ul>
+                    <h2 class="text-xs font-semibold uppercase">Sell with us</h2>
+                    <ul class="text-xs flex flex-col gap-4">
+                        <li>Order a Bag</li>
+                        <li>Reselling Guide</li>
+                        <li>All About Earnings</li>
+                    </ul>
+                </div>
+
+                <div class="flex flex-col gap-4 items-center">
+                    <h2 class="text-xs font-semibold uppercase">Get the app</h2>
+                    <img class="w-20 h-20" src="https://cf-assets-tup.thredup.com/pwa/appsflyer/qr-footer.png" alt="barcode">
+                </div>
+
+                <div class="flex flex-col gap-2 items-center p-4">
+                    <div class="bg-white py-3 px-7 rounded-lg">
+                        <img src="https://www.thredup.com/tup-assets/pwa/production/assets/apple-app-store-black-70b0903e186c5a4ecd79.svg" alt="App Store">
+                    </div>
+                    <div class="bg-white py-3 px-6 rounded-lg">
+                        <img src="https://www.thredup.com/tup-assets/pwa/production/assets/google-play-store-black-cd1ce3a21cce08ca0a51.svg" alt="Google Play">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="text-xs py-6 md:px-6 md:p-10 md:pl-20">
+                <p>* While supplies last</p>
+                <p>** % off estimated retail. See our Terms of Use for more information on how we calculate estimated original retail prices.</p>
+                <p>All third party brand names and logos appearing on this page are trademarks or registered trademarks of their respective holders. Any such appearance does not necessarily imply any affiliation with or endorsement of ThredUp.</p>
+
+                <div class="py-6 flex flex-col md:flex-row md:justify-between gap-4 px-8 md:px-0 text-center md:text-left">
+                    <ul class="flex flex-wrap gap-4 justify-center">
+                        <li>Terms of Use</li>
+                        <li>Privacy Policy</li>
+                        <li>Accessibility</li>
+                        <li>Do Not Sell My Personal Information</li>
+                        <li>Your Privacy Choices</li>
+                    </ul>
+
+                    <div class="flex flex-col py-4 md:py-0 gap-4 md:text-end">
+                        <p>© ThredUp Inc. All Rights Reserved</p>
+                        <p class="text-gray-600">Having problems using a screen reader on this website? Call (888) 868-0186 for help.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

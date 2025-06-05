@@ -13,6 +13,19 @@
         background-position: 100%;
         background-repeat: no-repeat;
     }
+   #image {
+        background-image: url("https://cf-assets-clover-app.thredup.com/uploads/2025-04-30/image-93095da9.jpg");
+        background-size: cover;
+        background-position: 100%;
+        background-repeat: no-repeat;
+   }
+   #image2 {
+        background-image: url("https://cf-assets-clover-app.thredup.com/uploads/2025-04-30/image-1-ff854540.jpg");
+        background-size: cover;
+        background-position: 100%;
+        background-repeat: no-repeat;
+   }
+    
 }
 
 @theme {
